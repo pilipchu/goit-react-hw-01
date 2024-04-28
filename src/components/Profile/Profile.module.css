@@ -1,0 +1,73 @@
+.conteiner {
+    height: auto;
+    width: 500px;
+    border-radius: 15px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+margin-top: 20px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.titel{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 15px;
+}
+
+.text {
+    color: darkgrey;
+    font-size: 35px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+}
+
+.list{
+    display: flex;
+    height: 130px;
+    border-top: 2px solid grey;
+}
+
+.line:not(:last-child){
+    border-right: 2px solid grey;
+}
+
+.line{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: dimgray;
+}
+
+.spanTitel {
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+    letter-spacing: -0.02em;
+    width: 166px;
+}
+
+.spanData{
+    font-weight: 700;
+    color: black;
+    font-size: 35px;
+    letter-spacing: -0.02em;
+}

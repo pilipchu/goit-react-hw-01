@@ -1,0 +1,39 @@
+.conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.list{
+    display: flex;
+    margin-bottom: 80px;
+    width: 550px;
+}
+
+.friend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nameFriend{
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.status{
+font-size: 20px;
+font-weight: 400;
+letter-spacing: -0.02em;
+}
+
+.line:not(:last-child){
+    margin-right: 20px;
+}
